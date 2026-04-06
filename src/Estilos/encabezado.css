@@ -1,0 +1,44 @@
+.container-fluid{
+    top: 5px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+
+.navbar-toggler{
+    background-color: #0d6efd;
+    
+}
+.nav-item .nav-link{
+    display: inline;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 20px;
+    
+}
+.nav-item .nav-link:hover{
+    background-color: #0d6efd;
+    color: white;
+    font-family:  system-ui, -apple-system;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .navbar-brand{
+    color: #222;
+    background-color:#0d6efd;
+    border-radius: 5px;
+    padding: 5px;
+}
+}

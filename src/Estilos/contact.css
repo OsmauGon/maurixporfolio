@@ -1,0 +1,15 @@
+#contacto{
+  margin-top: 12px;
+  border-radius: 20px;
+  border: 5px solid  #0d6efd;
+  min-width: 246px;
+}
+#contacto h3{
+  margin: 0 0 2px !important;
+}
+#contacto label{
+  color: #0d6efd;
+}
+#contacto input, #contacto textarea{
+  border: 2px solid #0d6efd;
+}

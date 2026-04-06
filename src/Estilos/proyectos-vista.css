@@ -1,0 +1,31 @@
+#proyectos-vista{
+  max-width: 620px;
+  margin-top: 12px;
+  border-radius: 20px;
+  border: 5px solid  #0d6efd;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#proyectos-vista h3{
+    text-align: center;
+}
+#proyectos-vista video{
+    width: 50%;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 765px) {
+  
+    #proyectos-vista video{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 572px) {
+  
+    #proyectos-vista video{
+        width: 70%;
+    }
+}
