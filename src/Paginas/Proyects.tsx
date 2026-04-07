@@ -12,7 +12,7 @@ const Projects = () => {
 
       <div id="carouselProyectos" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          {projects.map((proy, idx) => (
+          {projects.slice(2,5).map((proy, idx) => (//con esto mostramos inmocasa, tiendashop y pokedecks
             <div className={`carousel-item ${idx === 0 ? "active" : ""}`} key={idx}>
               <div className="card mx-auto shadow" style={{ maxWidth: "800px" }}>
                 <img src={proy.imagen} className="card-img-top" alt={`Preview de ${proy.titulo}`} />

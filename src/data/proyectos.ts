@@ -37,10 +37,33 @@ export const projects = [
     repo: "https://github.com/usuario/tareas-app",
   },*/
   {
+    titulo: "EnRedAt",
+    slug: "",
+    descripcion: "Portal de conexion entre familias y especialistas terapéuticos",
+    tecnologias: ["React", "TypeScript", "NodeJS", "Postgres"],
+    imagen: "********************",
+    minivideo: "*****************",
+    video: "*********************",
+    demo: "",
+    repo: "https://github.com/OsmauGon/enredatpublicfrontend"
+  },
+  {
+    titulo: "VaultCrypt",
+    slug: "",
+    descripcion: "Gestor de credenciales para cuentas de servicios",
+    tecnologias: ["React", "TypeScript", "NodeJS", "Postgres"],
+    imagen: "********************",
+    minivideo: "*****************",
+    video: "*********************",
+    demo: "",
+    repo: "https://github.com/OsmauGon/vaultcrypt-backend-"
+
+  },
+  {
     titulo: "Proyecto Inmobialiaria",
     slug: "InmoCasa",
     descripcion: "Sistema Full-Stack de visitas para una inmobiliaria ficticia.",
-    tecnologias: ["React", "TypeScript", "NodeJS"],
+    tecnologias: ["React", "TypeScript", "NodeJS", "Docker"],
     imagen: "img/inmobiliaria-img.png",
     minivideo: "img/inmobiliaria-mini-video.mp4",
     video : "/img/inmobiliaria-video.mp4",
@@ -68,6 +91,18 @@ export const projects = [
     video : "",
     demo: "https://maurix-pokedeck-builder.netlify.app",
     repo: "https://github.com/OsmauGon/pokedeckbuilder",
+  },
+  {
+    titulo: "POTY",
+    slug: "",
+    descripcion: "",
+    tecnologias: [],
+    imagen: "********************",
+    minivideo: "*****************",
+    video: "*********************",
+    demo: "",
+    repo: "**********************"
   }
+
   // Agregá más
 ];
