@@ -1,65 +1,32 @@
-/* const projects = [
-  {
-    titulo: "Mi App del Clima",
-    slug: "",
-    descripcion: "App responsive que muestra el clima en tiempo real usando una API pública.",
-    tecnologias: ["React", "TypeScript", "Bootstrap"],
-    imagen: "public/img/OIP.png",
-    minivideo: "",
-    video : "",
-    demo: "https://tu-app.vercel.app",
-    repo: "https://github.com/usuario/clima-app",
-  }
-  // Agregá más
-]; */
+
 export const projects = [
-  /*
-  {
-    titulo: "Mi App del Clima",
-    slug: "",
-    descripcion: "App responsive que muestra el clima en tiempo real usando una API pública.",
-    tecnologias: ["React", "TypeScript", "Bootstrap"],
-    imagen: "public/img/OIP.png",
-    minivideo: "",
-    video : "",
-    demo: "https://tu-app.vercel.app",
-    repo: "https://github.com/usuario/clima-app",
-  },
-  {
-    titulo: "Administrador de tareas",
-    slug: "",
-    descripcion: "App diseñada para hacer un CRUD completo para gestionar tareas.",
-    tecnologias: ["React", "Context API"],
-    imagen: "/tasks-preview.jpg",
-    minivideo: "",
-    video : "",
-    demo: "",
-    repo: "https://github.com/usuario/tareas-app",
-  },*/
-  {
+  {//enredat
+    documento: "public/documento.txt",
     titulo: "EnRedAt",
     slug: "",
     descripcion: "Portal de conexion entre familias y especialistas terapéuticos",
     tecnologias: ["React", "TypeScript", "NodeJS", "Postgres"],
-    imagen: "********************",
+    imagen: "img/projects/enredatimage.jpeg",
     minivideo: "*****************",
     video: "*********************",
     demo: "",
     repo: "https://github.com/OsmauGon/enredatpublicfrontend"
   },
-  {
+  {//vaultcrypit
+    documento: "public/documento.txt",
     titulo: "VaultCrypt",
     slug: "",
     descripcion: "Gestor de credenciales para cuentas de servicios",
     tecnologias: ["React", "TypeScript", "NodeJS", "Postgres"],
-    imagen: "********************",
+    imagen: "img/projects/vcimage.png",
     minivideo: "*****************",
     video: "*********************",
-    demo: "",
+    demo: "https://vaultcrypt.netlify.app/",
     repo: "https://github.com/OsmauGon/vaultcrypt-backend-"
 
   },
-  {
+  {//inmocasa
+    documento: "public/documento.txt",
     titulo: "Proyecto Inmobialiaria",
     slug: "InmoCasa",
     descripcion: "Sistema Full-Stack de visitas para una inmobiliaria ficticia.",
@@ -70,39 +37,67 @@ export const projects = [
     demo: "",
     repo: "https://github.com/OsmauGon/inmobiliaria-react",
   },
-  {
+  {//tiendashop
+    documento: "public/documento.txt",
     titulo: "TiendaShop",
     slug: "",
     descripcion: "E-commerce ficticio con FakeStore API.",
     tecnologias: ["React","Typescript","Material UI"],
-    imagen: "img/e-commerce-img.png",
+    imagen: "img/projects/tiendashopimage.png",
     minivideo: "",
     video : "",
     demo: "https://maurix-ecommerce.netlify.app/",
     repo: "https://github.com/OsmauGon/e-commerce",
   },
-  {
+  {//pokedeckbuilder
+    documento: "public/documento.txt",
     titulo: "Pokemon TCG",
     slug: "",
-    descripcion: "App diseñada para cosnstruir un mazo de cartas Pokemon.",
+    descripcion: "App diseñada para construir un mazo de cartas Pokemon.",
     tecnologias: ["HTML 5","CSS 3","Javacript"],
-    imagen: "img/pokedeck-img.png",
+    imagen: "img/projects/pokedeckimage.png",
     minivideo: "",
     video : "",
     demo: "https://maurix-pokedeck-builder.netlify.app",
     repo: "https://github.com/OsmauGon/pokedeckbuilder",
   },
-  {
+  {//poty
+    documento: "public/documento.txt",
     titulo: "POTY",
     slug: "",
-    descripcion: "",
-    tecnologias: [],
-    imagen: "********************",
+    descripcion: "Proyecto Organizador de Torneos de Yugi",
+    tecnologias: ["HTML5","CSS3","Javascript"],
+    imagen: "img/projects/potyimage.png",
     minivideo: "*****************",
     video: "*********************",
     demo: "",
     repo: "**********************"
-  }
+  },
+  /*
+  {//mi app del clima
+  documento: "public/documento.txt",  
+  titulo: "Mi App del Clima",
+    slug: "",
+    descripcion: "App responsive que muestra el clima en tiempo real usando una API pública.",
+    tecnologias: ["React", "TypeScript", "Bootstrap"],
+    imagen: "public/img/OIP.png",
+    minivideo: "",
+    video : "",
+    demo: "https://tu-app.vercel.app",
+    repo: "https://github.com/usuario/clima-app",
+  },
+  {//administrador de tareas
+  documento: "public/documento.txt",  
+  titulo: "Administrador de tareas",
+    slug: "",
+    descripcion: "App diseñada para hacer un CRUD completo para gestionar tareas.",
+    tecnologias: ["React", "Context API"],
+    imagen: "/tasks-preview.jpg",
+    minivideo: "",
+    video : "",
+    demo: "",
+    repo: "https://github.com/usuario/tareas-app",
+  },*/
 
   // Agregá más
 ];
