@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/CurriculumMauricio.pdf",
+      "destination": "/CurriculumMauricio.pdf"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

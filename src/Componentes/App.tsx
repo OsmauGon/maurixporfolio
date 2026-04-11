@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import {Home} from "../Paginas/Home"
 import About from "../Paginas/About"
 import Proyects from "../Paginas/Proyects"
-import Contact from "../Paginas/Contact"
+import {Contact} from "../Paginas/Contact"
 import  ProjectViewPage  from "../Paginas/ProjectViewPage"
 Contact
 export const App = () => {

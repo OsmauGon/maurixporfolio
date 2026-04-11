@@ -75,8 +75,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 
   return (
     <>
-      <div className="col-md-6 col-lg-4 mb-4">
-        <div className="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+      <div className=" col-md-6 col-lg-4 mb-4">
+        <div className="project-card card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
           {/* Imagen del proyecto */}
           <div className="position-relative" style={{ height: '200px', overflow: 'hidden' }}>
             <img 
@@ -88,7 +88,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 (e.target as HTMLImageElement).src = 'https://via.placeholder.com/300x200?text=Imagen+no+disponible';
               }}
             />
-            {project.video && (
+            {project.video && project.video.length > 1 && (
               <div className="position-absolute top-0 end-0 m-2">
                 <button 
                   className="btn btn-sm btn-danger rounded-circle"

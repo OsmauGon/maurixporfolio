@@ -1,49 +1,8 @@
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: #0d6efd;;
-  border-radius: 50%;
-  
+
+.project-card{
+  background-color: #ccc;
 }
-
-#proyectos{
-  max-width: 620px;
-  margin-top: 12px;
-  border-radius: 20px;
-  border: 5px solid  #0d6efd;
-}
-
-.card-img-top{
-  margin: auto;
-  width: 90%;
-  height: 247px;
-  position: relative;
-}
-.card-body {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: rgba(0, 0, 0, .5);
-  color: white;
-  font-size: 24px;
-  opacity: 0;
-}
-.card-body h4{
-  color: white
-}
-.card-body p{
-  color: white
-}
-.card-body:hover{
-  opacity: 1;
-}
-
-
-
-
-
-
-
-
-
+/*
 @media only screen and (max-width: 765px) {
   .card-body p{
     
@@ -55,4 +14,14 @@
     
     font-size: 15px;
   }
-}
+}*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/

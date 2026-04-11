@@ -8,7 +8,7 @@ export const projects = [
     tecnologias: ["React", "TypeScript", "NodeJS", "Postgres"],
     imagen: "img/projects/enredatimage.jpeg",
     minivideo: "*****************",
-    video: "*********************",
+    video: "",
     demo: "",
     repo: "https://github.com/OsmauGon/enredatpublicfrontend"
   },
@@ -20,7 +20,7 @@ export const projects = [
     tecnologias: ["React", "TypeScript", "NodeJS", "Postgres"],
     imagen: "img/projects/vcimage.png",
     minivideo: "*****************",
-    video: "*********************",
+    video: "",
     demo: "https://vaultcrypt.netlify.app/",
     repo: "https://github.com/OsmauGon/vaultcrypt-backend-"
 
@@ -31,8 +31,8 @@ export const projects = [
     slug: "InmoCasa",
     descripcion: "Sistema Full-Stack de visitas para una inmobiliaria ficticia.",
     tecnologias: ["React", "TypeScript", "NodeJS", "Docker"],
-    imagen: "img/inmobiliaria-img.png",
-    minivideo: "img/inmobiliaria-mini-video.mp4",
+    imagen: "img/projects/inmobiliaria-img.png",
+    minivideo: "img/projects/inmobiliaria-mini-video.mp4",
     video : "/img/inmobiliaria-video.mp4",
     demo: "",
     repo: "https://github.com/OsmauGon/inmobiliaria-react",
@@ -48,6 +48,30 @@ export const projects = [
     video : "",
     demo: "https://maurix-ecommerce.netlify.app/",
     repo: "https://github.com/OsmauGon/e-commerce",
+  },
+  {//mi app del clima
+  documento: "public/documento.txt",  
+  titulo: "Mi App del Clima",
+    slug: "",
+    descripcion: "App responsive que muestra el clima en tiempo real usando una API pública.",
+    tecnologias: ["React", "TypeScript", "Bootstrap"],
+    imagen: "public/img/OIP.png",
+    minivideo: "",
+    video : "",
+    demo: "https://tu-app.vercel.app",
+    repo: "https://github.com/usuario/clima-app",
+  },
+  {//administrador de tareas
+  documento: "public/documento.txt",  
+  titulo: "Administrador de tareas",
+    slug: "",
+    descripcion: "App diseñada para hacer un CRUD completo para gestionar tareas.",
+    tecnologias: ["React", "Context API"],
+    imagen: "/tasks-preview.jpg",
+    minivideo: "",
+    video : "",
+    demo: "",
+    repo: "https://github.com/usuario/tareas-app",
   },
   {//pokedeckbuilder
     documento: "public/documento.txt",
@@ -73,31 +97,19 @@ export const projects = [
     demo: "",
     repo: "**********************"
   },
-  /*
-  {//mi app del clima
+  
+  {//LP counter
   documento: "public/documento.txt",  
-  titulo: "Mi App del Clima",
+  titulo: "Contador de Puntos de Vida",
     slug: "",
-    descripcion: "App responsive que muestra el clima en tiempo real usando una API pública.",
-    tecnologias: ["React", "TypeScript", "Bootstrap"],
-    imagen: "public/img/OIP.png",
-    minivideo: "",
-    video : "",
-    demo: "https://tu-app.vercel.app",
-    repo: "https://github.com/usuario/clima-app",
-  },
-  {//administrador de tareas
-  documento: "public/documento.txt",  
-  titulo: "Administrador de tareas",
-    slug: "",
-    descripcion: "App diseñada para hacer un CRUD completo para gestionar tareas.",
-    tecnologias: ["React", "Context API"],
-    imagen: "/tasks-preview.jpg",
+    descripcion: "Herramienta de marcado para el juego de cartas YU-GI-OH",
+    tecnologias: ["HTML5","CSS3","Javascript"],
+    imagen: "img/projects/potyimage.png",
     minivideo: "",
     video : "",
     demo: "",
     repo: "https://github.com/usuario/tareas-app",
-  },*/
+  }
 
   // Agregá más
 ];

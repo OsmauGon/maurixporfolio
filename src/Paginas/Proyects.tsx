@@ -1,10 +1,15 @@
 
 import { Link } from 'react-router-dom';
 import { projects } from '../data/proyectos';
-//import '../Estilos/proyectos.css'
+import '../Estilos/proyectos.css'
 import ProjectCard from '../Componentes/ProjectCard';
 import { useState } from 'react';
 
+const explicaciones :string[] = [
+  "Acontinuacion muestro mis proyectos Full-Stack aplicando mi formacion en Node.js. Fueron planetados en base a resolver o cubrir una necesidad real",
+  "Estos proyectos fuero desarrollados a la par del instructor mientras aprendia a usar React y Typescript. Su valor es prepararme para desaios reales",
+  "Aqui muestro mis primeros proyectos durante mi formacion en HTML 5, CSS 3 y Javascritp donde mi objetivo fue usar las habilidades optenidas aplicadas a proyectos muy personales",
+]
 
 const Projects = () => {
   const [page,setPage] = useState<number >(0)
@@ -66,6 +71,7 @@ const Projects = () => {
           <span className="visually-hidden">Siguiente</span>
         </button>
       </div> */}
+      <p className="explicacion">{explicaciones[page / 3]}</p>
       <div className="row">
         {projects.slice(page, page + 3).map((project, index) => (
           <ProjectCard key={index} project={project} />
