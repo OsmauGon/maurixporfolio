@@ -39,7 +39,7 @@ import { Link } from "react-router-dom";
             </Link>
         </motion.p>
         <motion.a 
-          href='/public/CurriculumMauricio.pdf'
+          href='CurriculumMauricio.pdf'
           download="CurriculumMauricio.pdf"
           onClick={descargarCV}
           className="btn btn-primary btn-lg mt-4"
