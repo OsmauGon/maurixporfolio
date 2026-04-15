@@ -2,6 +2,21 @@
 .project-card{
   background-color: #ccc;
 }
+.selectp{
+  margin-bottom: 5px;
+  display: flex;
+  gap: 15px;
+}
+.selectp select{
+  
+  background-color: #ccc;
+  padding: 0 10px;
+  border-radius: 15px;
+  border: none;
+}
+.selectp p{
+  margin: 0;
+}
 /*
 @media only screen and (max-width: 765px) {
   .card-body p{

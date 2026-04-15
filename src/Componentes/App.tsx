@@ -1,7 +1,7 @@
 import Encabezado from "./Encabezado"
 import Footer from './Footer'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
+import {ThemeProvider} from '../Contextos/ThemeProvider.tsx'
 import {Home} from "../Paginas/Home"
 import About from "../Paginas/About"
 import Proyects from "../Paginas/Proyects"
@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
     <Router>
-        
+        <ThemeProvider>
         <Encabezado></Encabezado>
         <main className="container mt-4 flex-grow-1">
             <Routes>
@@ -26,6 +26,7 @@ export const App = () => {
 
         </main>
         <Footer></Footer>
+        </ThemeProvider>
     </Router>
     </div>
   )

@@ -17,11 +17,14 @@ const Projects = () => {
   return (
     <section id='proyectos' className="container py-5">
       <h3 className="text-center mb-4">Mis Proyectos</h3>
+      <div className="selectp">
         <select name="" id="sel" onChange={(e)=>{setPage(Number(e.target.value))}}>
           <option value={0}>Profesionales</option>
           <option value={3}>Practicas</option>
           <option value={6}>Hobbies</option>
         </select>
+        <p className="explicacion">{explicaciones[page / 3]}</p>
+      </div>
       {/* <div id="carouselProyectos" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {projects.slice(2,5).map((proy, idx) => (//con esto mostramos inmocasa, tiendashop y pokedecks
@@ -71,7 +74,6 @@ const Projects = () => {
           <span className="visually-hidden">Siguiente</span>
         </button>
       </div> */}
-      <p className="explicacion">{explicaciones[page / 3]}</p>
       <div className="row">
         {projects.slice(page, page + 3).map((project, index) => (
           <ProjectCard key={index} project={project} />

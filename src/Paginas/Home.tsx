@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import '../Estilos/home.css'
 import { Link } from "react-router-dom";
+import { ThemeToggleButton, ThemeToggleSwitch } from "../Componentes/ThemeToggleSwitch";
+
 
  export const Home = () => {
 
@@ -49,6 +51,8 @@ import { Link } from "react-router-dom";
           Descargar CV
         </motion.a>
       </div>
+      <ThemeToggleSwitch />
+      <ThemeToggleButton />
     </section>
   );
 };

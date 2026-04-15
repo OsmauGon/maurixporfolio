@@ -70,6 +70,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       github: '🐙',
       default: '💻'
     };
+    
     return icons[tech.toLowerCase()] || icons.default;
   };
 
@@ -103,22 +104,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 
           <div className="card-body">
             {/* Título */}
-            <h3 className="card-title h4 mb-2 fw-bold">{project.titulo}</h3>
+            <h4 className="card-title h4 mb-2 fw-bold">{project.titulo}</h4>
             
             {/* Descripción */}
             <p className="card-text text-muted mb-3" style={{ fontSize: '0.95rem' }}>
               {truncatedDescription}
             </p>
 
-            {/* Tecnologías */}
-            <div className="mb-3">
-              <small className="text-muted d-block mb-2">Tecnologías:</small>
+            {/* Tecnologías base*/}
+            <div className="mb-1">
+              <small className="text-muted d-block mb-2">Tecnologías base:</small>
               <div className="d-flex flex-wrap gap-2">
-                {project.tecnologias.map((tech, index) => (
+                {project.tecnobase.map((tech, index) => (
                   <span 
                     key={index} 
                     className="badge bg-light text-dark border px-3 py-2 rounded-pill"
-                    style={{ fontSize: '0.85rem' }}
+                    style={{ fontSize: '0.75rem' }}
                   >
                     <span className="me-1">{getTechIcon(tech)}</span>
                     {tech}
@@ -126,6 +127,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 ))}
               </div>
             </div>
+            {/* Tecnologías extras*/}
+            {project.tecnoextra && <div className="mb-3">
+              <small className="text-muted d-block mb-2">Tecnologías extra:</small>
+              <div className="d-flex flex-wrap gap-2">
+                {project.tecnoextra.map((tech, index) => (
+                  <span 
+                    key={index} 
+                    className="badge bg-light text-dark border px-3 py-2 rounded-pill"
+                    style={{ fontSize: '0.75rem' }}
+                  >
+                    <span className="me-1">{getTechIcon(tech)}</span>
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>}
           </div>
 
           <div className="card-footer bg-transparent border-top-0 pt-0 pb-3">
