@@ -1,4 +1,4 @@
-.container-fluid{
+/* .container-fluid{
     top: 5px;
     position: absolute;
     z-index: 2;
@@ -23,7 +23,17 @@
     transition: .3s;
 }
 
-
+ */
+ .porfolio-header{
+    /* background-color: lightcoral; */
+ }
+ .porfolio-header a{
+    font-size: 24px;
+ }
+ .light-header{}
+ .dark-header, .dark-header a{
+    color: white;
+ }
 
 
 
@@ -35,10 +45,10 @@
 
 
 @media only screen and (max-width: 991px) {
-  .navbar-brand{
+  /* .navbar-brand{
     color: #222;
     background-color:#0d6efd;
     border-radius: 5px;
     padding: 5px;
-}
+    } */
 }

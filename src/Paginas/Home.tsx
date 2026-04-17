@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 import '../Estilos/home.css'
 import { Link } from "react-router-dom";
 import { ThemeToggleButton, ThemeToggleSwitch } from "../Componentes/ThemeToggleSwitch";
+import { useThemeContext } from "../Contextos/ThemeContext";
 
 
  export const Home = () => {
-
+  const {mode} = useThemeContext()
   const descargarCV = () =>{
     console.log("intente descargar el CV")
   }
@@ -51,8 +52,6 @@ import { ThemeToggleButton, ThemeToggleSwitch } from "../Componentes/ThemeToggle
           Descargar CV
         </motion.a>
       </div>
-      <ThemeToggleSwitch />
-      <ThemeToggleButton />
     </section>
   );
 };
