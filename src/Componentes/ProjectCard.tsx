@@ -119,7 +119,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                   <span 
                     key={index} 
                     className="badge bg-light text-dark border px-3 py-2 rounded-pill"
-                    style={{ fontSize: '0.75rem' }}
+                    style={{ fontSize: '0.6rem' }}
                   >
                     <span className="me-1">{getTechIcon(tech)}</span>
                     {tech}
@@ -176,7 +176,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 disabled={loading}
               >
                 <span className="me-1">📄</span> 
-                {loading ? 'Cargando...' : 'Documentación'}
+                {loading ? 'Cargando...' : 'Doc'}
               </button>
             </div>
           </div>

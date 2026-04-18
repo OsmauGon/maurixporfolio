@@ -1,7 +1,7 @@
 
 export const projects = [
   {//enredat
-    documento: "public/documento.txt",
+    documento: "public/project-et.txt",
     titulo: "EnRedAt",
     slug: "",
     descripcion: "Portal de conexion entre familias y especialistas terapéuticos",
@@ -14,7 +14,7 @@ export const projects = [
     repo: "https://github.com/OsmauGon/enredatpublicfrontend"
   },
   {//vaultcrypit
-    documento: "public/documento.txt",
+    documento: "public/project-vc.txt",
     titulo: "VaultCrypt",
     slug: "",
     descripcion: "Gestor de credenciales para cuentas de servicios",

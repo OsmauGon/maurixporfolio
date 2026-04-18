@@ -1,4 +1,4 @@
-import Encabezado from "./Encabezado"
+import {Encabezado} from "./Encabezado"
 import Footer from './Footer'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import {ThemeProvider} from '../Contextos/ThemeProvider.tsx'

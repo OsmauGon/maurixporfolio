@@ -25,12 +25,14 @@
 
  */
  .porfolio-header{
-    /* background-color: lightcoral; */
+    background-color: transparent;
  }
  .porfolio-header a{
     font-size: 24px;
  }
- .light-header{}
+ .light-header{
+    background-color: transparent;
+ }
  .dark-header, .dark-header a{
     color: white;
  }

@@ -1,0 +1,10 @@
+¿Que es?
+Es un sistema gestor de cuentas que permite a usuarios registrarse y almacenar las credenciales de las cuentas que deseen crear
+
+¿Que resuelve?
+Facilita y acelera la recuperacion de la informacion usada a la hora de crear una cuenta.
+Todo de manera rapida y encriptada
+Como en mi busqueda laboral  me vi en la necesidad de registrarme en varios servicios de empresas a las que postule, fue facil perder el acceso a los mismos y dificil recuperarlos
+
+¿Cual es el desafio que enfrento?
+Aplique Zod para la validacion de formularios, y doble enciptacion (una en el front-end y otra en el back-end) para aaplicar buenas practicas de seguridad informatica

@@ -1,0 +1,9 @@
+¿Que es?
+Este es un proyecto End-to-End planteado por con cliente que se desempeña como acompañante terapéutico.
+Construire un portal web para que los usuarios registrados y validados por un admin puedan conectarse y compartir informacion
+
+¿Que resuelve?
+Conecta familias con pacientes que necesitan apoyo con especialistas terapéuticos 
+
+¿Cual es el desafio que enfrento?
+En esta ocacion me plantie proporcionar al cliente un front-end publico, un front-end privado para un admin, un back-end para la gestion de informacion y recursos, una base de datos y un sistema de almacenamiento de archivos (imagenes y documentos). Todos desplegados y funcionales

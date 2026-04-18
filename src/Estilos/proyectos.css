@@ -8,11 +8,17 @@
   gap: 15px;
 }
 .selectp select{
-  
-  background-color: #ccc;
+  width: 230px;
+  font-size: 24px;
+  color: #ccc;
+  background-color: transparent;
   padding: 0 10px;
   border-radius: 15px;
   border: none;
+  outline: none;
+}
+.selectp option{
+  
 }
 .selectp p{
   margin: 0;
