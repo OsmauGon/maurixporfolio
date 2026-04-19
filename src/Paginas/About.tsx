@@ -10,6 +10,27 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
+const presentaciones = [
+  {
+    id: 1,
+    primero: "Soy Desarrollador web enfocado en crear aplicaciones modernar, funcionales y escalables. Trabajo principalmente con ReactJS y tecnologías de ecosistema JavaScript, integrando front-end y back-end para desarrollar soluciones completas",
+    segundo: "Durante los últimos años me formé de manera autodidacta, y en los ultimos dos me profundicé con práctica constante y proyectos reales donde incorporé herramientas como Node.js, PostgresSQL, Docker, Next.js y despliegue en producción",
+    tercero: "Me caracterizo por la constancia, la adptacion rápida a nuevas tecnologias y una mentalidad orientada a resolver problemas y seguir creciendo profesionalmente"
+  },
+  {
+    id: 2,
+    primero: "Desarrollador web apasionado por construir productos digitales útiles y bien diseñados. Trabajo con React, Node.js y tecnologías modernas para desarrollar experiencias web completas",
+    segundo: "Soy autididacta y disciplinado: considero el aprendizaje continuo parte escencial del trabajo. En cada proyecto fui sumando nuevas herramientas como Docker, autenticacion con JWT, base de datos relacionales y despliegue de serviocios reales",
+    tercero: "Busco seguir creciendo en equipos donde pueda aportar, aprender rapido y enfrentar desafíos récnologicos cada vez mayores"
+  },
+  {
+    id: 3,
+    primero: "Hace varios años elegi el desarrollo web como camino profesional y desde entonces no dejé de aprender. Empecé formándome por mi cuenta y en los últimos años llevé ese aprendizaje a proyectos concretos, evolucionando desde sitios front-end hasta aplicaciones más completas con back-end e infraestructura",
+    segundo: "Trabajo de React, Node.js, PostgresSQL y otras tecnologías actuales. Me definen la constancia, la curiosidad técnica y la capacidad de adaptarme rápido a nuevas herramientas",
+    tercero: "Hoy busco una oportunidad donde transormar esa dedicación en valor real dentro de un equipo de trabajo"
+  },
+]
+
 const About = () => {
   return (
     <section className="container py-5">

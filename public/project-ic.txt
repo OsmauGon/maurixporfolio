@@ -1,0 +1,9 @@
+¿Que es?
+Diseñe un portal para que agentes inmobiarios puedan cargar propiedades (casas, departamentos o lotes) para ponerlos en alquiler o venta. Elportal permite a usuario ver las propiedades disponibles y coordinar visitas con el agente correspondiente
+
+
+¿Que resuelve?
+Automatiza la publicacion de propiedades en venta o alquiler y el contacto con agentes inmobiliarios
+
+¿Cual es el desafio que enfrento?
+Habiendo finalizado un curso de Node.js tome este proyecto sugerido para re estilizar la pagina de una inmobiliaria existente y agregarle lo que se me ocurrio que podia. De esta manera en un contenedor de Docker  utilice File system para almacenar imagenes y sumar  funciones a la pagina

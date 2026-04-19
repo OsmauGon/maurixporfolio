@@ -73,6 +73,28 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     
     return icons[tech.toLowerCase()] || icons.default;
   };
+  const getTechIcon2 = (tech: string) => {
+    const icons: { [key: string]: string } = {
+      react: "⚛️-algo",
+      vue: "💚-algo",
+      angular: "🅰️-algo",
+      node: "💚-algo",
+      typescript: "📘-algo",
+      javascript: "💛-algo",
+      html5: "🌐-algo",
+      css3: "🎨-algo",
+      bootstrap: "🅱️-algo",
+      mongodb: "🍃-algo",
+      postgresql: "🐘-algo",
+      mysql: "🗄️-algo",
+      docker: "🐳-algo",
+      git: "📦-algo",
+      github: "🐙-algo",
+      default: "💻-algo"
+    };
+    
+    return icons[tech.toLowerCase()] || icons.default;
+  };
 
   return (
     <>

@@ -28,7 +28,7 @@ export const projects = [
 
   },
   {//inmocasa
-    documento: "public/documento.txt",
+    documento: "public/project-ic.txt",
     titulo: "InmoCasas",
     slug: "InmoCasa",
     descripcion: "Sistema Full-Stack de visitas para una inmobiliaria ficticia.",
@@ -41,7 +41,7 @@ export const projects = [
     repo: "https://github.com/OsmauGon/inmobiliaria-react",
   },
   {//tiendashop
-    documento: "public/documento.txt",
+    documento: "public/project-tc.txt",
     titulo: "TiendaShop",
     slug: "",
     descripcion: "E-commerce ficticio con FakeStore API.",

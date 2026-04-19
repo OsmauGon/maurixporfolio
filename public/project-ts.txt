@@ -1,0 +1,2 @@
+Este proyecto lo fui haciendo a la par con el instructor del curso de React. Se utilizo una API pública para programadores que ofrece recursos para simular una tienda de compras virtual.
+Se  puede visitar la página "https://fakestoreapi.com/" para ver todo lo que ofrece

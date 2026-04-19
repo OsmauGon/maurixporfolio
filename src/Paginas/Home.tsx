@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import '../Estilos/home.css'
 import { Link } from "react-router-dom";
-import { ThemeToggleButton, ThemeToggleSwitch } from "../Componentes/ThemeToggleSwitch";
+//import { ThemeToggleButton, ThemeToggleSwitch } from "../Componentes/ThemeToggleSwitch";
 import { useThemeContext } from "../Contextos/ThemeContext";
 
 
@@ -10,6 +10,7 @@ import { useThemeContext } from "../Contextos/ThemeContext";
   const descargarCV = () =>{
     console.log("intente descargar el CV")
   }
+  console.log(mode)
 
   return (
     
