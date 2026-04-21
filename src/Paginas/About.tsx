@@ -32,6 +32,7 @@ const presentaciones = [
 ]
 
 const About = () => {
+  console.log(presentaciones)
   return (
     <section className="container py-5">
       {/* Presentación personal */}

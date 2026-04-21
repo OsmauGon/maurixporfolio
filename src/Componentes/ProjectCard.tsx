@@ -48,7 +48,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   };
 
   // Iconos de tecnologías (puedes personalizar según tus necesidades)
-  const getTechIcon = (tech: string) => {
+  /*const getTechIcon = (tech: string) => {
     const icons: { [key: string]: string } = {
       react: '⚛️',
       vue: '💚',
@@ -72,25 +72,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     };
     
     return icons[tech.toLowerCase()] || icons.default;
-  };
+  };*/
   const getTechIcon2 = (tech: string) => {
     const icons: { [key: string]: string } = {
-      react: "⚛️-algo",
-      vue: "💚-algo",
-      angular: "🅰️-algo",
-      node: "💚-algo",
-      typescript: "📘-algo",
-      javascript: "💛-algo",
-      html5: "🌐-algo",
-      css3: "🎨-algo",
-      bootstrap: "🅱️-algo",
-      mongodb: "🍃-algo",
-      postgresql: "🐘-algo",
-      mysql: "🗄️-algo",
-      docker: "🐳-algo",
-      git: "📦-algo",
-      github: "🐙-algo",
-      default: "💻-algo"
+      react: "⚛️-www.netflix.com",
+      vue: "💚-www.netflix.com",
+      angular: "🅰️-www.netflix.com",
+      node: "💚-www.netflix.com",
+      typescript: "📘-www.netflix.com",
+      javascript: "💛-www.netflix.com",
+      html5: "🌐-www.netflix.com",
+      css3: "🎨-www.netflix.com",
+      bootstrap: "🅱️-www.netflix.com",
+      mongodb: "🍃-www.netflix.com",
+      postgresql: "🐘-www.netflix.com",
+      mysql: "🗄️-www.netflix.com",
+      docker: "🐳-www.netflix.com",
+      git: "📦-www.netflix.com",
+      github: "🐙-www.netflix.com",
+      default: "💻-www.netflix.com"
     };
     
     return icons[tech.toLowerCase()] || icons.default;
@@ -143,7 +143,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     className="badge bg-light text-dark border px-3 py-2 rounded-pill"
                     style={{ fontSize: '0.6rem' }}
                   >
-                    <span className="me-1">{getTechIcon(tech)}</span>
+                    {/* <span className="me-1">{getTechIcon(tech)}</span> */}
+                    <a href={getTechIcon2(tech).split("-")[1]} className="me-1" target='blank'>{getTechIcon2(tech).split("-")[0]}</a>
                     {tech}
                   </span>
                 ))}
@@ -159,7 +160,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     className="badge bg-light text-dark border px-3 py-2 rounded-pill"
                     style={{ fontSize: '0.75rem' }}
                   >
-                    <span className="me-1">{getTechIcon(tech)}</span>
+                    <a href={getTechIcon2(tech).split("-")[1]} className="me-1" target='blank'>{getTechIcon2(tech).split("-")[0]}</a>
                     {tech}
                   </span>
                 ))}
