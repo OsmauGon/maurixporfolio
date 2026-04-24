@@ -75,22 +75,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   };*/
   const getTechIcon2 = (tech: string) => {
     const icons: { [key: string]: string } = {
-      react: "⚛️-www.netflix.com",
+      react: "⚛️-https://react.dev/",
       vue: "💚-www.netflix.com",
       angular: "🅰️-www.netflix.com",
-      node: "💚-www.netflix.com",
-      typescript: "📘-www.netflix.com",
-      javascript: "💛-www.netflix.com",
-      html5: "🌐-www.netflix.com",
-      css3: "🎨-www.netflix.com",
-      bootstrap: "🅱️-www.netflix.com",
-      mongodb: "🍃-www.netflix.com",
-      postgresql: "🐘-www.netflix.com",
+      node: "💚-https://nodejs.org/es",
+      typescript: "📘-https://www.typescriptlang.org/",
+      javascript: "💛-https://www.w3schools.com/js/DEFAULT.asp",
+      html5: "🌐-https://www.w3schools.com/html/",
+      css3: "🎨-https://www.w3schools.com/css/default.asp",
+      bootstrap: "🥾-https://bootstrap21.org/es/",
+      mongodb: "🍃-https://www.mongodb.com/",
+      postgresql: "🐘-https://www.postgresql.org/",
       mysql: "🗄️-www.netflix.com",
-      docker: "🐳-www.netflix.com",
-      git: "📦-www.netflix.com",
-      github: "🐙-www.netflix.com",
-      default: "💻-www.netflix.com"
+      docker: "🐳-https://www.docker.com/",
+      git: "😸-https://github.com/",
+      github: "😸-https://github.com/",
+      moviedatabase: "🎬-https://publicapis.io/movie-db-api",
+      zod:"💎-https://zod.dev/",
+      default: "💻-#"
     };
     
     return icons[tech.toLowerCase()] || icons.default;
@@ -144,7 +146,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     style={{ fontSize: '0.6rem' }}
                   >
                     {/* <span className="me-1">{getTechIcon(tech)}</span> */}
-                    <a href={getTechIcon2(tech).split("-")[1]} className="me-1" target='blank'>{getTechIcon2(tech).split("-")[0]}</a>
+                    <a href={getTechIcon2(tech).split("-")[1]} className="me-1" target="_blank">{getTechIcon2(tech).split("-")[0]}</a>
                     {tech}
                   </span>
                 ))}
@@ -160,7 +162,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     className="badge bg-light text-dark border px-3 py-2 rounded-pill"
                     style={{ fontSize: '0.75rem' }}
                   >
-                    <a href={getTechIcon2(tech).split("-")[1]} className="me-1" target='blank'>{getTechIcon2(tech).split("-")[0]}</a>
+                    <a href={getTechIcon2(tech).split("-")[1]} className="me-1" target="_blank">{getTechIcon2(tech).split("-")[0]}</a>
                     {tech}
                   </span>
                 ))}
@@ -177,7 +179,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 rel="noopener noreferrer"
                 className="btn btn-dark btn-sm"
               >
-                <span className="me-1">🐙</span> GitHub
+                <span className="me-1">😸</span> GitHub
               </a>
 
               {/* Botón Demo (si existe) */}
