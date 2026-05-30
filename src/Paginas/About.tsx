@@ -9,6 +9,8 @@ import {
   faGitAlt,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
+import { useState } from 'react';
+import { TecnologiesComp } from '../Componentes/TecnologiesComp';
 
 const presentaciones = [
   {
@@ -30,9 +32,15 @@ const presentaciones = [
     tercero: "Hoy busco una oportunidad donde transormar esa dedicación en valor real dentro de un equipo de trabajo"
   },
 ]
+const  softskills :string[] = [
+  "💬 Comunicación clara y empática",
+  "🎯 Orientación a resultados y aprendizaje continuo",
+  "🤝 Trabajo en equipo y colaboración",
+  "🔍 Atención al detalle y pensamiento analítico",
+]
 
 const About = () => {
-  console.log(presentaciones)
+  const [mostrar,noMostrar] = useState<boolean>(true)
   return (
     <section className="container py-5">
       {/* Presentación personal */}
@@ -52,11 +60,24 @@ const About = () => {
             mostrar los proyectos que me apasionan y seguir aprendiendo en el camino. Es mi rincón digital, 
             hecho con dedicación y muchas ganas.
           </p>
+          <p>Gracias a mis proyectos personales he desarrollado experiencia en:</p>
+          <ul>
+            <li>Optimazacion de UX/UI</li>
+            <li>Modularizacion y escalabilidad</li>
+            <li>Manejo de versiones</li>
+            <li>Despliegues</li>
+            <li>Arquitectura de paneles administrativos</li>
+            <li>Trabajo con clientes</li>
+            <li>Diseño de MVPs</li>
+          </ul>
         </div>
       </div>
 
       {/* Tecnologías */}
       <h3 className="text-center mb-3">Tecnologías que manejo</h3>
+      <input type="checkbox" onChange={()=>noMostrar(!mostrar)}/>
+      { mostrar == false ? <TecnologiesComp />
+                          :
       <div className="d-flex justify-content-center flex-wrap gap-4 mb-5">
         <FontAwesomeIcon icon={faHtml5} size="6x" color="#E44D26" title="HTML5" />
         <FontAwesomeIcon icon={faCss3Alt} size="6x" color="#1572B6" title="CSS3" />
@@ -68,14 +89,18 @@ const About = () => {
         <FontAwesomeIcon icon={faNodeJs} size="6x" color="#68A063" title="Node.js" />
         <img src="img/icons8-sql-96.png" alt="" title='Structure Query Language'/>
         </div>
+      }
 
       {/* Habilidades blandas */}
       <h3 className="text-center mb-3">Valores profesionales</h3>
       <ul className="list-group list-group-flush text-center">
-        <li className="list-group-item">💬 Comunicación clara y empática</li>
-        <li className="list-group-item">🎯 Orientación a resultados y aprendizaje continuo</li>
-        <li className="list-group-item">🤝 Trabajo en equipo y colaboración</li>
-        <li className="list-group-item">🔍 Atención al detalle y pensamiento analítico</li>
+        
+        
+        {softskills.map((item, index) => (
+          <li key={index} className="list-group-item bg-transparent">
+            {item}
+          </li>
+        ))}
       </ul>
     </section>
   );

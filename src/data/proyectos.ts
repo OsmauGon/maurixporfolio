@@ -101,9 +101,9 @@ export const projects = [
     tecnoextra: undefined,
     imagen: "img/projects/potyimage.png",
     minivideo: "*****************",
-    video: undefined,
-    demo: "",
-    repo: "**********************"
+    video: "/img/poty-explicacion.mp4",
+    demo: "https://maurix-poty.netlify.app/",
+    repo: "https://github.com/OsmauGon/poty"
   },
   
   {//LP counter

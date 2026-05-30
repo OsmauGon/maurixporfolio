@@ -14,7 +14,7 @@ import { useThemeContext } from "../Contextos/ThemeContext";
 
   return (
     
-    <section className="py-5 text-center bg-light">
+    <section className="py-5 text-center ">
       <div className="container">
         <motion.h1 
           className="display-4 fw-bold"
