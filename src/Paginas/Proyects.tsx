@@ -16,18 +16,9 @@ const Projects = () => {
   const [page,setPage] = useState<number >(0)
   
   return (
-    <section id='proyectos' className="container py-3">
+    <section id='proyectos' className="container pb-5">
       <h3 className="text-center mb-4">Mis Proyectos</h3>
-      <div className="selectp">
-        {/* <select className='nice-link' name="" id="sel" onChange={(e)=>{setPage(Number(e.target.value))}}>
-          <option value={0}>Profesionales</option>
-          <option value={3}>Practicas</option>
-          <option value={6}>Hobbies</option>
-        </select> */}
-        <ProjectSelect setPage={setPage}/>
-        <p className="explicacion">{explicaciones[page / 3]}</p>
-      </div>
-      
+      <ProjectSelect setPage={setPage} explicacion={explicaciones[page / 3]}/>
       <div className="row">
         {projects.slice(page, page + 3).map((project, index) => (
           <ProjectCard key={index} project={project} />

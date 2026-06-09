@@ -136,7 +136,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </p>
 
             {/* Tecnologías base*/}
-            <div className="mb-1">
+            <div className="mb-1 base-tecnologies">
               <small className="text-muted d-block mb-2">Tecnologías base:</small>
               <div className="d-flex flex-wrap gap-2">
                 {project.tecnobase.map((tech, index) => (
@@ -153,7 +153,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               </div>
             </div>
             {/* Tecnologías extras*/}
-            {project.tecnoextra && <div className="mb-3">
+            {project.tecnoextra && <div className="mb-3 extra-tecnologies">
               <small className="text-muted d-block mb-2">Tecnologías extra:</small>
               <div className="d-flex flex-wrap gap-2">
                 {project.tecnoextra.map((tech, index) => (

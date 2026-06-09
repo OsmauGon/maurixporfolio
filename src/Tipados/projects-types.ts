@@ -4,7 +4,7 @@ export interface Project {
   descripcion: string;
   tecnobase: string[];
   tecnoextra?: string[]; // Array de nombres de tecnologías o rutas de iconos
-  repo: string;
+  repo?: string;
   demo?: string;
   video?: string;
   imagen: string;

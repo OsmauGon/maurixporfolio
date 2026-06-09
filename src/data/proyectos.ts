@@ -10,7 +10,7 @@ export const projects = [
     imagen: "img/projects/enredatimage.jpeg",
     minivideo: "*****************",
     video: "",
-    demo: "",
+    demo: "https://enredatpublicfrontend.vercel.app/",
     repo: "https://github.com/OsmauGon/enredatpublicfrontend"
   },
   {//vaultcrypit

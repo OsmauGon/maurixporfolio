@@ -8,6 +8,7 @@ import {
   faBootstrap,
   faGitAlt,
   faNodeJs,
+  faDocker,
 } from "@fortawesome/free-brands-svg-icons";
 // 1. Importas los íconos desde el paquete solid
 import { faCode, faDatabase } from '@fortawesome/free-solid-svg-icons';
@@ -44,11 +45,8 @@ export const TecnologiesComp = (props: Props) => {
                 <h5>Mas...</h5>
                 <div>
                  {/*Git hub, Postman */}   
-                <img src="img/icons8-typescript-96.png" alt="" title='TypeScript'/>
-                <FontAwesomeIcon icon={faReact} size="6x" color="#61DAFB" title="React" />
-                {/* <FontAwesomeIcon icon={faGitAlt} size="6x" color="#F1502F" title="Git" /> */}
-                <FontAwesomeIcon icon={faNodeJs} size="6x" color="#68A063" title="Node.js" />
-                <img src="img/icons8-sql-96.png" alt="" title='Structure Query Language'/>
+                <FontAwesomeIcon icon={faGitAlt} size="6x" color="#F1502F" title="Git" />
+                <FontAwesomeIcon icon={faDocker} size="6x" color="#2b2dd8" title="Docker" />
                 
                 </div>
             </div>

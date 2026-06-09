@@ -12,7 +12,7 @@ import {
 import { useState } from 'react';
 import { TecnologiesComp } from '../Componentes/TecnologiesComp';
 
-const presentaciones = [
+/* const presentaciones = [
   {
     id: 1,
     primero: "Soy Desarrollador web enfocado en crear aplicaciones modernar, funcionales y escalables. Trabajo principalmente con ReactJS y tecnologías de ecosistema JavaScript, integrando front-end y back-end para desarrollar soluciones completas",
@@ -31,7 +31,7 @@ const presentaciones = [
     segundo: "Trabajo de React, Node.js, PostgresSQL y otras tecnologías actuales. Me definen la constancia, la curiosidad técnica y la capacidad de adaptarme rápido a nuevas herramientas",
     tercero: "Hoy busco una oportunidad donde transormar esa dedicación en valor real dentro de un equipo de trabajo"
   },
-]
+] */
 const  softskills :string[] = [
   "💬 Comunicación clara y empática",
   "🎯 Orientación a resultados y aprendizaje continuo",
@@ -51,7 +51,7 @@ const About = () => {
             src="img/yop.jpg"
             alt="Foto de perfil"
             className="img-fluid rounded-circle"
-            style={{ maxWidth: "150px" }}
+            style={{ maxWidth: "220px" }}
           />
         </div>
         <div className="col-md-8">
