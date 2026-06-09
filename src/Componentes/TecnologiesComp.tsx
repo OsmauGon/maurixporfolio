@@ -11,12 +11,10 @@ import {
   faDocker,
 } from "@fortawesome/free-brands-svg-icons";
 // 1. Importas los íconos desde el paquete solid
-import { faCode, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 
-type Props = {}
 
-export const TecnologiesComp = (props: Props) => {
+export const TecnologiesComp = () => {
   return (
           <div className="d-flex justify-content-center flex-wrap gap-4 mb-5">
             <div className="fendtecs">
