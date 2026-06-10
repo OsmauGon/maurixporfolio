@@ -1,15 +1,4 @@
 import '../Estilos/about.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faJsSquare,
-  faHtml5,
-  faCss3Alt,
-  faBootstrap,
-  faGitAlt,
-  faNodeJs,
-} from "@fortawesome/free-brands-svg-icons";
-import { useState } from 'react';
 import { TecnologiesComp } from '../Componentes/TecnologiesComp';
 
 /* const presentaciones = [
@@ -40,7 +29,6 @@ const  softskills :string[] = [
 ]
 
 const About = () => {
-  const [mostrar,noMostrar] = useState<boolean>(true)
   return (
     <section className="container py-5">
       {/* Presentación personal */}
@@ -56,9 +44,7 @@ const About = () => {
         </div>
         <div className="col-md-8">
           <p>
-            Este portfolio nace como un espacio donde puedo compartir mi crecimiento como desarrollador, 
-            mostrar los proyectos que me apasionan y seguir aprendiendo en el camino. Es mi rincón digital, 
-            hecho con dedicación y muchas ganas.
+            Me considero un desarrollador que planifica, investiga y prueba en cada componente de sus proyectos. Comence usando HTML, CSS y Javascript y con practicas de cursos aplique React, Typescript y Node para dar un paso hacia adelante en mi especializacion. Hoy en dia trabajo en proyectos de identidad profesional para seguir aprendiendo.
           </p>
           <p>Gracias a mis proyectos personales he desarrollado experiencia en:</p>
           <ul>
@@ -75,30 +61,14 @@ const About = () => {
 
       {/* Tecnologías */}
       <h3 className="text-center mb-3">Tecnologías que manejo</h3>
-      <input type="checkbox" onChange={()=>noMostrar(!mostrar)}/>
-      { mostrar == false ? <TecnologiesComp />
-                          :
-      <div className="d-flex justify-content-center flex-wrap gap-4 mb-5">
-        <FontAwesomeIcon icon={faHtml5} size="6x" color="#E44D26" title="HTML5" />
-        <FontAwesomeIcon icon={faCss3Alt} size="6x" color="#1572B6" title="CSS3" />
-        <FontAwesomeIcon icon={faJsSquare} size="6x" color="#F7DF1E" title="JavaScript" />
-        <img src="img/icons8-typescript-96.png" alt="" title='TypeScript'/>
-        <FontAwesomeIcon icon={faReact} size="6x" color="#61DAFB" title="React" />
-        <FontAwesomeIcon icon={faBootstrap} size="6x" color="#7952B3" title="Bootstrap" />
-        <FontAwesomeIcon icon={faGitAlt} size="6x" color="#F1502F" title="Git" />
-        <FontAwesomeIcon icon={faNodeJs} size="6x" color="#68A063" title="Node.js" />
-        <img src="img/icons8-sql-96.png" alt="" title='Structure Query Language'/>
-        </div>
-      }
+      <TecnologiesComp />
 
       {/* Habilidades blandas */}
       <h3 className="text-center mb-3">Valores profesionales</h3>
-      <ul className="list-group list-group-flush text-center">
-        
-        
+      <ul className="list-group list-group-flush text-center soft-skills">
         {softskills.map((item, index) => (
           <li key={index} className="list-group-item bg-transparent">
-            {item}
+            <p>{item}</p>
           </li>
         ))}
       </ul>

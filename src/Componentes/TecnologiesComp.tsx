@@ -1,51 +1,34 @@
 import '../Estilos/about.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faJsSquare,
-  faHtml5,
-  faCss3Alt,
-  faBootstrap,
-  faGitAlt,
-  faNodeJs,
-  faDocker,
-} from "@fortawesome/free-brands-svg-icons";
-// 1. Importas los íconos desde el paquete solid
+
 
 
 
 export const TecnologiesComp = () => {
   return (
           <div className="d-flex justify-content-center flex-wrap gap-4 mb-5">
-            <div className="fendtecs">
+            <div className="devtecs fendtecs">
                 <h5>Front-end</h5>
                 <div>
-                    <FontAwesomeIcon icon={faHtml5} size="6x" color="#E44D26" title="HTML5" />
-                <FontAwesomeIcon icon={faCss3Alt} size="6x" color="#1572B6" title="CSS3" />
-                <FontAwesomeIcon icon={faJsSquare} size="6x" color="#F7DF1E" title="JavaScript" />
-                <FontAwesomeIcon icon={faBootstrap} size="6x" color="#7952B3" title="Bootstrap" />
-            
+                    <img src="img/devtecs/html-icon.png" alt="" title='HTML 5'/>
+                    <img src="img/devtecs/css-icon.png" alt="" title='CSS 3'/>
+                    <img src="img/devtecs/javascript-icon.png" alt="" title='JavaScript'/>
+                    <img src="img/devtecs/react-icon.png" alt="" title='React JS'/>
                 </div>
             </div>
-            <div className="bendtecs">
+            <div className="devtecs bendtecs">
                 <h5>Back-end</h5>
                 <div>
-                    
-                <img src="img/icons8-typescript-96.png" alt="" title='TypeScript'/>
-                <FontAwesomeIcon icon={faReact} size="6x" color="#61DAFB" title="React" />
-                {/* <FontAwesomeIcon icon={faGitAlt} size="6x" color="#F1502F" title="Git" /> */}
-                <FontAwesomeIcon icon={faNodeJs} size="6x" color="#68A063" title="Node.js" />
-                <img src="img/icons8-sql-96.png" alt="" title='Structure Query Language'/>
-                
+                    <img src="img/devtecs/typescript-icon.png" alt="" title='TypeScript'/>
+                    <img src="img/devtecs/node-icon.png" alt="" title='Node JS'/>
+                    <img src="img/devtecs/postgresql-icon.png" alt="" title='PostgreSQL'/>
                 </div>
             </div>
-            <div className="moretecs">
+            <div className="devtecs moretecs">
                 <h5>Mas...</h5>
                 <div>
-                 {/*Git hub, Postman */}   
-                <FontAwesomeIcon icon={faGitAlt} size="6x" color="#F1502F" title="Git" />
-                <FontAwesomeIcon icon={faDocker} size="6x" color="#2b2dd8" title="Docker" />
-                
+                    <img src="img/devtecs/git-icon.png" alt="" title='Git'/>
+                    <img src="img/devtecs/postman-icon.png" alt="" title='Postman'/>
+                    <img src="img/devtecs/table-icon.png" alt="" title='Postman'/>   
                 </div>
             </div>
             

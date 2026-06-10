@@ -8,24 +8,39 @@ h3 {
 .container ul{
     margin-bottom: 20PX;
 }
-
-.fendtecs div, .bendtecs div, .moretecs div{
+.devtecs h5{
+    text-align: center;
+}
+.devtecs div{
+   
     background-color: rgba(255, 255, 255, .1);
     border-radius: 10px;
     padding: 10px;
-    
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 4px;
-
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
 }
-div svg, div img{
-    margin: 0 auto
+.devtecs svg, .devtecs img{
+    margin: 0 auto;
+    width: 84px;
+    height: 84px;
 }
 
-.list-group{
+.soft-sckills{
     margin: auto;
-    width: 450px;
+    font-size: 1rem;
+    width: 90%;
+    max-width: 450px;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@media only screen and (max-width: 510px) {
+  .soft-sckills{
+  }
 }
